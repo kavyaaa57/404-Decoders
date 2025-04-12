@@ -41,14 +41,6 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-10">
             <div className="flex space-x-8">
-              <Link
-                to="/"
-                className={`text-sm font-medium hover:text-tradewise-primary transition-colors ${
-                  isActive("/") ? "text-tradewise-primary" : "text-gray-600"
-                }`}
-              >
-                Home
-              </Link>
               {isAuthenticated && (
                 <>
                   <Link
