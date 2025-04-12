@@ -33,7 +33,6 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <BarChart3 className="h-7 w-7 text-tradewise-primary" />
             <span className="font-bold text-xl text-slate-800">
               Trade<span className="text-tradewise-primary">Wise</span>
             </span>
